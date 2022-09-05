@@ -1,6 +1,5 @@
 const Scoreboard = (props) => {
   if (props.isFail) {
-    console.log('test');
     return <div className="Scoreboard fail">Unlucky! try again.</div>;
   } else {
     return (

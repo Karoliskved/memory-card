@@ -1,8 +1,11 @@
 const Card = (props) => {
   return (
-    <div className="Card" id={props.image} onClick={props.handleClick}>
-      {props.image}
-    </div>
+    <img
+      className="Card"
+      id={props.index}
+      onClick={props.handleClick}
+      src={props.image}
+    ></img>
   );
 };
 export default Card;

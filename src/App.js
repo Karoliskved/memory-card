@@ -18,7 +18,7 @@ const App = (props) => {
       randomIndex;
 
     // While there remain elements to shuffle.
-    while (currentIndex != 0) {
+    while (currentIndex !== 0) {
       // Pick a remaining element.
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex--;
@@ -34,7 +34,6 @@ const App = (props) => {
   }
   const handleClick = (e) => {
     if (!images.includes(parseInt(e.target.id))) {
-      console.log('fail');
       setFailStatus(true);
       setImages([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
       setCurrentScore(0);
