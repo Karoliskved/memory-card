@@ -56,9 +56,6 @@ const App = (props) => {
       setBestScore(currentScore);
     }
   }, [bestScore, currentScore]);
-  const test = () => {
-    console.log(imagesArray);
-  };
 
   return (
     <div className="App">
@@ -69,7 +66,6 @@ const App = (props) => {
         bestScore={bestScore}
       />
       <Main handleClick={handleClick} shuffledArray={imagesArray} />
-      <button onClick={test}>test</button>
     </div>
   );
 };
