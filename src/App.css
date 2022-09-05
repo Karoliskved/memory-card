@@ -12,6 +12,7 @@
   background-color: darkblue;
   display: flex;
   justify-content: center;
+  color: white;
 }
 .Scoreboard {
   border: 1px solid black;
@@ -25,8 +26,8 @@
   padding: 10px;
 }
 .Card {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   border: 1px solid black;
 }
 .counter {
@@ -45,8 +46,4 @@ body {
   width: 100vw;
   margin: 0px;
   padding: 0px;
-}
-img {
-  height: 100px;
-  width: 100px;
 }
