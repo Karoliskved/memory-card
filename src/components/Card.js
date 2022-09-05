@@ -5,6 +5,7 @@ const Card = (props) => {
       id={props.index}
       onClick={props.handleClick}
       src={props.image}
+      alt="album"
     ></img>
   );
 };
